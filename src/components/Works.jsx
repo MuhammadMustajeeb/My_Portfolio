@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, image, tags, source_code_link }) => {
+const ProjectCard = ({ index, name, description, image, icon, tags, source_code_link, deploy_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -33,6 +33,17 @@ const ProjectCard = ({ index, name, description, image, tags, source_code_link }
               <img 
                 src={github}
                 alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+            <div
+              onClick={() => window.open
+                (deploy_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img 
+                src={icon}
+                alt="icon"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
@@ -94,4 +105,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");

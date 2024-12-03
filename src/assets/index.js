@@ -4,6 +4,11 @@ import creator from "./creator.png";
 import react from "./react.png";
 import web from "./web.png";
 import github from "./github.png";
+import deploy_1 from './deploy_1.png';
+import deploy_2 from './deploy_2.png';
+import deploy_3 from './deploy_3.png';
+import deploy_4 from './deploy_4.svg';
+import deploy_5 from './deploy_5.png';
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -24,9 +29,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import fasdeem from './fasdeem.png';
+import bitesup from './bitesup.png';
+import gaming from "./gaming_ui_ux.png";
+import gpt3 from './gpt3.png';
+import currency_tales from './currency_tales.png';
 
 export {
   logo,
@@ -35,6 +42,11 @@ export {
   react,
   web,
   github,
+  deploy_1,
+  deploy_2,
+  deploy_3,
+  deploy_4,
+  deploy_5,
   menu,
   close,
   css,
@@ -52,7 +64,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  fasdeem,
+  bitesup,
+  gaming,
+  gpt3,
+  currency_tales
 };

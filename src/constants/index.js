@@ -17,10 +17,17 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    bitesup,
+    gaming,
+    gpt3,
+    currency_tales,
     threejs,
+    fasdeem,
+    deploy_1,
+    deploy_2,
+    deploy_3,
+    deploy_4,
+    deploy_5
   } from "../assets";
   
   export const navLinks = [
@@ -52,7 +59,7 @@ import {
       icon: frontend,
     },
     {
-      title: "UI Developer",
+      title: "UI/UX Developer",
       icon: creator,
     },
   ];
@@ -69,10 +76,6 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
     },
     {
       name: "React JS",
@@ -97,10 +100,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -188,16 +187,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Fasdeem",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An E-commerce app that delivers full functionality for precise searching, efficient order placement, straightforward adjustment of product quantities, effective filtering of items, and simple cart options.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react-toastify",
           color: "green-text-gradient",
         },
         {
@@ -205,41 +204,22 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: fasdeem,
+      icon: deploy_1,
+      source_code_link: "https://github.com/MuhammadMustajeeb/Ecommerce_App",
+      deploy_link: "https://fasdeem.com"
     },
     {
-      name: "Job IT",
+      name: "Bite Sup",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A simple Restaurant and ordering-based application with a neat and clean user interface and user experience with additional functionalities covering the front-end part of the app.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "contextapi",
           color: "green-text-gradient",
         },
         {
@@ -247,8 +227,79 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bitesup,
+      icon: deploy_2,
+      source_code_link: "https://github.com/MuhammadMustajeeb/Food_DeliveryApp.git",
+      deploy_link: "https://bitesup.store"
+    },
+    {
+      name: "Gaming UI/UX",
+      description:
+        "This web application allows users to engage with modern gaming UI/UX design and re-render video animations, featuring tilt motion capabilities on cards to enhance the user experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "gsap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gaming,
+      icon: deploy_3,
+      source_code_link: "https://github.com/MuhammadMustajeeb/Gaming_UI-UX_Design.git",
+      deploy_link: "https://gaming-ui-ux-design.vercel.app/"
+    },
+    {
+      name: "GPT-3",
+      description:
+        "A web application made by Figma design, React JS, and BEM CSS.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "figma design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bem css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gpt3,
+      icon: deploy_4,
+      source_code_link: "https://github.com/MuhammadMustajeeb/UI-UX-GPT-3.git",
+      deploy_link: "https://gpt-3-one-pink.vercel.app/#wgpt3"
+    },
+    {
+      name: "Curruncy Tales",
+      description:
+        "A currency converter app developed by using API, JS, and CSS.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: currency_tales,
+      icon: deploy_5,
+      source_code_link: "https://github.com/MuhammadMustajeeb/Currency_App.git",
+      deploy_link: "https://www.currencytales.online/#"
     },
   ];
   
