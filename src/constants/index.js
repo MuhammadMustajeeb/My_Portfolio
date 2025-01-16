@@ -158,16 +158,16 @@ import {
     },
   ];
   
-  // const testimonials = [
-  //   {
-  //     testimonial:
-  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //     name: "Shoaib Sohail",
-  //     designation: "CHRO",
-  //     company: "B.B Tech",
-  //     image: "https://res.cloudinary.com/dsqeevxdd/image/upload/v1736903078/reucly8u2okktnwa7qef.jpg",
-  //   },
-  // ];
+  const testimonials = [
+    {
+      testimonial:
+        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      name: "Shoaib Sohail",
+      designation: "CHRO",
+      company: "B.B Tech",
+      image: "https://res.cloudinary.com/dsqeevxdd/image/upload/v1736903078/reucly8u2okktnwa7qef.jpg",
+    },
+  ];
   
   const projects = [
     {
